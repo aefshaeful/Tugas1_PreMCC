@@ -49,9 +49,14 @@ namespace KasirKopi
                         break;
                         
                     case 5:
-                        Console.WriteLine("Exit.");
+                        Console.WriteLine("Logout");
                         lanjutkan = false;
                         break;
+                    
+                    case 6:
+                        Console.WriteLine("Exit");
+                        lanjutkan = false;
+                        break;    
                         
                     default:
                         Console.WriteLine("Pilihan tidak valid.");
