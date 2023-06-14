@@ -53,7 +53,7 @@ namespace KasirKopi
                         lanjutkan = false;
                         break;
                     
-                    case 6:
+                    case 0:
                         Console.WriteLine("Exit");
                         lanjutkan = false;
                         break;    
