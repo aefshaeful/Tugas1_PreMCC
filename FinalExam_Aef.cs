@@ -48,7 +48,10 @@ namespace KasirKopi
                         Console.WriteLine("Terima kasih telah berkunjung ke Kedai Kopi CUAKS.");
                         lanjutkan = false;
                         break;
-
+                    case 5:
+                        Console.WriteLine("Exit.");
+                        lanjutkan = false;
+                        break;
                     default:
                         Console.WriteLine("Pilihan tidak valid.");
                         break;
